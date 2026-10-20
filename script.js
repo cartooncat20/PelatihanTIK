@@ -1,7 +1,9 @@
+// Memilih elemen tombol dari HTML berdasarkan ID 'sapabutton'
+// Perbaikan: Menggunakan tanda '=' untuk variabel dan fungsi 'getElementById'
+const tombolsapa = document.getElementById('sapabutton');
 
-const tombolsapa - document.getElementaryById('sapabutton');
-
+// Menambahkan perintah/kejadian saat tombol diklik
 tombolsapa.addEventListener('click', function() {
-
-  alert('halo! Terima kasih telah mengunjungi kami!');
-})
+  // Menampilkan pesan pop-up di layar
+  alert('Halo! Terima kasih telah mengunjungi kami!');
+});
