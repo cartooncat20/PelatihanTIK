@@ -1,29 +1,25 @@
+/* Pengaturan gaya untuk keseluruhan latar belakang dan teks halaman */
 body {
-  Background-color: #FFFFE0;
-  font-family: arial, sans-sherif;
-  color: #191970;
+  background-color: #FFFFE0; /* Warna latar kuning muda */
+  font-family: Arial, sans-serif; /* Perbaikan pengejaan sans-serif */
+  color: #191970; /* Warna teks biru gelap */
 }
 
-.kartu profil {
+/* Pengaturan gaya untuk wadah/kartu profil */
+.kartu-profil {
   width: 300px;
-  margin: 50px auto;
+  margin: 50px auto; /* Membuat kartu berada di tengah halaman */
   padding: 20px;
   background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 15px; /* Sisi sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+  text-align: center; /* Membuat semua teks & elemen di dalam kartu berada di tengah */
 }
 
-
+/* Pengaturan gaya khusus untuk gambar profil di dalam kartu */
 .kartu-profil img {
   width: 150px;
-  border-radius: 50%;
-}
-.kartu-profil {
-   width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
+  height: 150px;
+  object-fit: cover; /* Menjaga proporsi gambar tetap rapi */
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran penuh */
 }
